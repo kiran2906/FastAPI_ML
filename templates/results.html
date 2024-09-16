@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Flower Prediction Results</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Iris Flower Prediction Results</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Prediction</h2>
+                        <p class="card-text">The predicted class is: {{ predicted_class }}</p>  
+                        <p class="card-text">The predicted class name is: {{ predicted_class_name }}</p>
+                        <p class="card-text">Sepal Length: {{ sepal_length }}</p>
+                        <p class="card-text">Sepal Width: {{ sepal_width }}</p>
+                        <p class="card-text">Petal Length: {{ petal_length }}</p>
+                        <p class="card-text">Petal Width: {{ petal_width }}</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>
